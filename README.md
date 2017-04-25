@@ -1,4 +1,7 @@
-# api documentation for  [react-native-router-flux (v3.38.0)](https://github.com/aksonov/react-native-router-flux#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-router-flux.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-router-flux) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-router-flux.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-router-flux)
+# npmdoc-react-native-router-flux
+
+#### basic api documentation for  [react-native-router-flux (v3.38.1)](https://github.com/aksonov/react-native-router-flux#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-native-router-flux.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-native-router-flux) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-native-router-flux.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-native-router-flux)
+
 #### React Native Router using Flux architecture
 
 [![NPM](https://nodei.co/npm/react-native-router-flux.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-native-router-flux)
@@ -26,6 +29,11 @@
         "url": "https://github.com/aksonov/react-native-router-flux/issues"
     },
     "dependencies": {
+        "lodash.isequal": "^4.5.0",
+        "react": "^15.4.2",
+        "react-addons-pure-render-mixin": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "react-native": "^0.41.2",
         "react-native-experimental-navigation": "0.26.x",
         "react-native-tabs": "^1.0.9",
         "react-static-container": "1.0.1"
@@ -56,10 +64,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "f5f8ec2875b46f96f61006ff502d0d80268e6ce2",
-        "tarball": "https://registry.npmjs.org/react-native-router-flux/-/react-native-router-flux-3.38.0.tgz"
+        "shasum": "333b1d447285f8d8c9ea0918e1d3761712af3426",
+        "tarball": "https://registry.npmjs.org/react-native-router-flux/-/react-native-router-flux-3.38.1.tgz"
     },
-    "gitHead": "4f91ad57563553c98530cd5841ad27a048f4f582",
+    "gitHead": "0a4c4003cd9c55ebb802b9ed8a73eb4868c53792",
     "homepage": "https://github.com/aksonov/react-native-router-flux#readme",
     "jest": {
         "preset": "react-native"
@@ -94,7 +102,8 @@
         "test:watch": "npm run test -- --watch"
     },
     "typings": "index.d.ts",
-    "version": "3.38.0"
+    "version": "3.38.1",
+    "bin": {}
 }
 ```
 
